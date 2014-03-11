@@ -13,6 +13,7 @@ Project description:
                                |-------------------------|
 
 </pre>
+
 This project will be a device driver that allow access to MIPS data bus. This device driver must support the interruption, because when the DSP in question needs to send a data to DSP that writes the data on the data bus and triggers the interrupt, it will cause the device driver to activate the the chip select that buffer release the data to the data bus.
 
 
