@@ -1,3 +1,4 @@
+<pre>
 Project description:
 
 |------------|
@@ -16,3 +17,5 @@ This project will be a device driver that allow access to MIPS data bus. This de
 
 
 Este projeto deverá ser um device dirver para linux que permita acesso ao barramento de dados do processador MIPS. Este device driver deve dar suporte à interrupção, pois quando o DSP em questão necessita enviar um dado ao MIPS este DSP escreve o dado no barramento de dados e aciona a interrupção, isso fará com que o device driver acione o chip select para que o buffer libere o dado par ao barramento de dados.
+
+</pre>
