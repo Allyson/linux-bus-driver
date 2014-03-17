@@ -5,7 +5,7 @@ Project description:
 
 |-----------|
 |           | Data bus (8 bits) |--------| Data bus (8 bits) |-----|
-|    MIPS   |==========//=======|        |========//=========|     |
+|    MIPS   |<==========//=====>|        |<=======//========>|     |
 | Processor |        CS_N       |        |                   |     |
 |           |-------------------| Buffer |                   | DSP |
 |           |       Interrupt   |        |                   |     |
