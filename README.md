@@ -1,18 +1,19 @@
-<pre>
+
 Project description:
 
+<pre>
 |-----------|
-|           |    Data bus (8 bits)    |--------| Data bus (8 bits) |-----|
-|    MIPS   |<===========//==========>|        |<=======//========>|     |
-| Processor |        CS_N             |        |                   |     |
-|           |------------------------>| Buffer |                   | DSP |
-|           |       Interrupt         |        |                   |     |
-|           |<----------------|       |        |        |----------|     |
-|-----------|                 |       |--------|        |          |-----|
-                              |                         |
-                              |-------------------------|
+|           | Data bus (8 bits) |--------| Data bus (8 bits) |-----|
+|    MIPS   |<=========//======>|        |<=======//========>|     |
+| Processor |        CS_N       |        |                   |     |
+|           |----------------- >| Buffer |                   | DSP |
+|           |       Interrupt   |        |                   |     |
+|           |< ---------|       |        |        |----------|     |
+|-----------|           |       |--------|        |          |-----|
+                        |                         |
+                        |-------------------------|
 
-Buffer -> Bidirectional Buffer/LATCH 8 bits
+Buffer  Bidirectional Buffer/LATCH 8 bits
 
 </pre>
 
